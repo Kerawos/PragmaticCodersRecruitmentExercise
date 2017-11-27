@@ -1,4 +1,4 @@
-package pl.mareksowa;
+package main.java.pl.mareksowa;
 
 public class Main {
 
