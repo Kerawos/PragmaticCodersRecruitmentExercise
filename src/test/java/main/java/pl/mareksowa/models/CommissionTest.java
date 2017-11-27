@@ -19,6 +19,14 @@ public class CommissionTest {
     }
 
     @Test public void testExample1() throws Exception {
+        assertEquals(commission.calculateCommissions("2016-11-11", "2017-01-11", 1), "100PLN");
+    }
 
+    @Test public void testExample2() throws Exception {
+        assertEquals(commission.calculateCommissions("2016-06-01", "2017-06-01", 2), "0PLN");
+    }
+
+    @Test public void testExample3() throws Exception {
+        assertEquals(commission.calculateCommissions("2016-06-01", "2017-06-01", 3), "810.03KC");
     }
 }
